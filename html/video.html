@@ -10,23 +10,35 @@
         <a href="table.html">Table</a>
       </div>
       <div>
-        <div class="movie-grid">
-            <div class="grid-item">
-                <video width="280" height="200" controls>
-                    <source src="../media/videos/video1.mp4" type="video/mp4">
+        <div class="row">
+            <div class="column">
+                <video class="myImg" width="280" height="200" src="../media/videos/video1.mp4" type="video/mp4" controls>
+                    <!-- <source src="../media/videos/video1.mp4" type="video/mp4"> -->
                 </video>
             </div>
-            <div class="grid-item">
-                <video width="280" height="200" controls>
-                    <source src="../media/videos/video2.mp4" type="video/mp4">
+            <div class="column">
+                <video class="myImg" width="280" height="200" src="../media/videos/video2.mp4" type="video/mp4" controls >
+        
                 </video>
             </div>
-            <div class="grid-item">
-                <video width="280" height="200" controls>
-                    <source src="../media/videos/video3.mp4" type="video/mp4">
+            <div class="column">
+                <video class="myImg" width="280" height="200" src="../media/videos/video3.mp4" type="video/mp4" controls>
+
                 </video>
             </div>
-            
+            <div class="column">
+                <video class="myImg" width="280" height="200" src="../media/videos/video3.mp4" type="video/mp4" controls>
+
+                </video>
+            </div>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <video class="modal-content" id="img01" type="video/mp4" controls>
+                <div id="caption"></div>
+            </div>
+            <script src="../js/video_modal.js"></script>
          
           </div>
     </div>

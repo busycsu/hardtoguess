@@ -235,4 +235,6 @@ table, th, td {
     width: 100%;
   }
 }
-
+.video-js.vjs-playing .vjs-tech {
+  pointer-events: none;
+}
