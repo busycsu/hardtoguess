@@ -114,7 +114,15 @@ table, th, td {
   max-width: 25%;
   padding: 0 4px;
 }
-
+.column_3{
+  margin-top: 10px;
+  width: 25%;
+  padding: 0 4px;
+}
+.column_2{
+  width: 75%;
+  padding: 0 4px;
+}
 .column img {
   margin-top: 8px;
   vertical-align: middle;
