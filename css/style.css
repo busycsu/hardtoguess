@@ -153,6 +153,7 @@ table, th, td {
 }
 
 .myImg:hover {opacity: 0.7;}
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -175,14 +176,24 @@ table, th, td {
 }
 /* Modal Content (image) */
 .modal-content {
-  margin: auto;
+  /* margin: auto;
   display: block;
   width: 80%;
-  max-width: 700px;
+  max-width: 700px;  */
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto; */
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Caption of Modal Image */
-#caption {
+/* #caption {
   margin: auto;
   display: block;
   width: 80%;
@@ -191,7 +202,7 @@ table, th, td {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-}
+} */
 
 /* Add Animation */
 .modal-content, #caption {  
@@ -234,7 +245,4 @@ table, th, td {
   .modal-content {
     width: 100%;
   }
-}
-.video-js.vjs-playing .vjs-tech {
-  pointer-events: none;
 }
